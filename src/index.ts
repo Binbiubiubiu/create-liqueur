@@ -21,7 +21,8 @@ async function createLiqueur({ args, cwd }: Options) {
   const [name = basename(cwd)] = args._;
   const target = name ? join(cwd, name + '') : cwd;
   const registry = 'https://registry.npmjs.org/';
-  const { version,description} = require('../package.json');
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const { version, description } = require('../package.json');
   const gitUser = await getGitUser();
   const { npmClient } = await prompts(
     [

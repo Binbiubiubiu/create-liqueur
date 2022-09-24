@@ -9,6 +9,7 @@ const args = yParser(process.argv.slice(2), {
 });
 
 if (args.version && !args._[0]) {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   const { name, version } = require('../package.json');
   console.log(`${name}@${version}`);
 } else {
