@@ -174,12 +174,12 @@
       "members": [
         {
           "kind": "Function",
-          "canonicalReference": "create-liqueur!createWhiskey:function(1)",
+          "canonicalReference": "create-liqueur!createLiqueur:function(1)",
           "docComment": "/**\n * @public\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "declare function createWhiskey({ args, cwd }: "
+              "text": "declare function createLiqueur({ args, cwd }: "
             },
             {
               "kind": "Reference",
@@ -220,7 +220,7 @@
               "isOptional": false
             }
           ],
-          "name": "createWhiskey"
+          "name": "createLiqueur"
         }
       ]
     }

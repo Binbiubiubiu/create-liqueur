@@ -3,11 +3,11 @@ import { name } from './package.json';
 
 export default defineConfig((options) => {
   return {
-    entry: ['./src/index.ts'],
+    entry: ['./src/index.ts','./src/cli.ts'],
     name,
     target: 'node14',
     minify: !options.watch,
-    format: ['cjs', 'esm'],
+    format: "cjs",
     splitting: true,
     sourcemap: false,
     clean: true,

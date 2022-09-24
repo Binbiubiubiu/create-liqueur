@@ -16,7 +16,7 @@ interface Options {
 /**
  * @public
  */
-async function createWhiskey({ args, cwd }: Options) {
+async function createLiqueur({ args, cwd }: Options) {
   const [name = basename(cwd)] = args._;
   const target = name ? join(cwd, name + '') : cwd;
   const registry = 'https://registry.npmjs.org/';
@@ -78,4 +78,4 @@ async function createWhiskey({ args, cwd }: Options) {
   installWithNpmClient({ npmClient, cwd: target });
 }
 
-export default createWhiskey;
+export default createLiqueur;

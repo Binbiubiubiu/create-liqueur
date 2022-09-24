@@ -9,8 +9,8 @@ import { yParser } from '@umijs/utils';
 // Warning: (ae-forgotten-export) The symbol "Options" needs to be exported by the entry point index.d.ts
 //
 // @public (undocumented)
-function createWhiskey({ args, cwd }: Options): Promise<void>;
-export default createWhiskey;
+function createLiqueur({ args, cwd }: Options): Promise<void>;
+export default createLiqueur;
 
 // (No @packageDocumentation comment for this package)
 
