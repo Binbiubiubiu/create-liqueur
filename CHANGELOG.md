@@ -1,5 +1,12 @@
 
 
+## [0.1.4](https://github.com/Binbiubiubiu/create-liqueur/compare/0.1.3...0.1.4) (2022-09-24)
+
+
+### Bug Fixes
+
+* 修复ts global types ([38ca577](https://github.com/Binbiubiubiu/create-liqueur/commit/38ca5772fbeecde521a268170b9a63dbd8f231e2))
+
 ## [0.1.3](https://github.com/Binbiubiubiu/create-liqueur/compare/0.1.2...0.1.3) (2022-09-24)
 
 
