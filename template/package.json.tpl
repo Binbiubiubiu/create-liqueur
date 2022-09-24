@@ -28,6 +28,7 @@
     "docs:deploy": "gh-pages -d docs/.vitepress/dist"
   },
   "devDependencies": {
+    "@algolia/client-search": "^4.9.1",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@microsoft/api-extractor": "^7.31.2",

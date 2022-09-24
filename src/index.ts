@@ -4,7 +4,6 @@ import {
   prompts,
   yParser
 } from '@umijs/utils';
-import { exec, execSync } from 'child_process';
 import os from 'os';
 import { join, basename } from 'path';
 import { getGitUser } from './util';

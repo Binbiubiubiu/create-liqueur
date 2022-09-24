@@ -8,7 +8,9 @@ async function getGitConfig(key: string) {
   try {
     const config = await exec(`git config ${key}`);
     [r] = config.stdout.split('\n');
-  } catch (e) {}
+  } catch (e) {
+    console.error(e);
+  }
 
   return r;
 }
