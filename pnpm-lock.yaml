@@ -558,7 +558,7 @@ packages:
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
-    resolution: {integrity: sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U=, tarball: '@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz'}
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -1731,7 +1731,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=, tarball: concat-map/download/concat-map-0.0.1.tgz}
+    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
   /concat-stream/2.0.0:
@@ -5086,7 +5086,7 @@ packages:
     dev: true
 
   /setprototypeof/1.2.0:
-    resolution: {integrity: sha1-ZsmiSnP5/CjL5msJ/tPTPcrxtCQ=, tarball: setprototypeof/download/setprototypeof-1.2.0.tgz}
+    resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
     dev: true
 
   /shebang-command/2.0.0:
@@ -5514,7 +5514,7 @@ packages:
       is-number: 7.0.0
 
   /toidentifier/1.0.1:
-    resolution: {integrity: sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==, tarball: toidentifier/download/toidentifier-1.0.1.tgz?cache=0&sync_timestamp=1637143601644&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Ftoidentifier%2Fdownload%2Ftoidentifier-1.0.1.tgz}
+    resolution: {integrity: sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==}
     engines: {node: '>=0.6'}
     dev: true
 
@@ -5749,7 +5749,7 @@ packages:
     dev: true
 
   /unpipe/1.0.0:
-    resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
+    resolution: {integrity: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=}
     engines: {node: '>= 0.8'}
     dev: true
 

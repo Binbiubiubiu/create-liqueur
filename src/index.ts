@@ -4,6 +4,7 @@ import {
   prompts,
   yParser
 } from '@umijs/utils';
+import { exec, execSync } from 'child_process';
 import os from 'os';
 import { join, basename } from 'path';
 import { getGitUser } from './util';
@@ -20,7 +21,7 @@ async function createLiqueur({ args, cwd }: Options) {
   const [name = basename(cwd)] = args._;
   const target = name ? join(cwd, name + '') : cwd;
   const registry = 'https://registry.npmjs.org/';
-  const { version } = require('../package.json');
+  const { version,description} = require('../package.json');
   const gitUser = await getGitUser();
   const { npmClient } = await prompts(
     [
@@ -63,7 +64,7 @@ async function createLiqueur({ args, cwd }: Options) {
         name: 'description',
         type: 'text',
         message: `Input NPM package description`,
-        initial: 'The description of a vue component'
+        initial: description
       },
       {
         name: 'author',
