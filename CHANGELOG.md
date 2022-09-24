@@ -1,5 +1,12 @@
 
 
+## [0.1.3](https://github.com/Binbiubiubiu/create-liqueur/compare/0.1.2...0.1.3) (2022-09-24)
+
+
+### Features
+
+* 更新依赖 ([7fc96a8](https://github.com/Binbiubiubiu/create-liqueur/commit/7fc96a85248eaa607a35c43df8b1fdf215074fab))
+
 ## [0.1.2](https://github.com/Binbiubiubiu/create-liqueur/compare/0.1.1...0.1.2) (2022-09-24)
 
 
