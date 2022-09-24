@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "bitter-wine":"link:../"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

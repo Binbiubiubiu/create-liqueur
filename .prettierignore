@@ -1,0 +1,15 @@
+dist
+.gitignore
+.npmignore
+.prettierignore
+.DS_Store
+.editorconfig
+.eslintignore
+coverage/
+CNAME
+LICENSE
+*.yaml
+temp
+api-extractor
+.github
+example
