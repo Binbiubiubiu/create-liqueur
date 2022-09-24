@@ -28,8 +28,12 @@
     "docs:build": "vitepress build docs",
     "docs:deploy": "gh-pages -d docs/.vitepress/dist"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "package tool",
+    "generator",
+    "npm package"
+  ],
+  "author": "Binbiubiubiu<2632003786@qq.com>",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
@@ -78,5 +82,13 @@
   },
   "dependencies": {
     "@umijs/utils": "^4.0.22"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binbiubiubiu/create-liqueur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Binbiubiubiu/create-liqueur/issues"
+  },
+  "homepage": "https://github.com/Binbiubiubiu/create-liqueur#readme"
 }
